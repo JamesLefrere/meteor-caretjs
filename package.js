@@ -8,5 +8,5 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom("1.0");
   api.use("jquery", "client")
-  api.addFiles("Caret.js/dist/js/jquery.caret.js", "client");
+  api.addFiles("Caret.js/dist/jquery.caret.js", "client");
 });
